@@ -2,6 +2,9 @@
 using namespace std;
 
 int main(){
-    cout<<"hello world Ankit";
+    int a, b, c;
+    short sa=9;
+    // cout<<"hello world Ankit"<<endl;
+    // cout<<"Next  line";
     return 0;
 }
