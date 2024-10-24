@@ -1,1 +1,1 @@
-float score = 45.32;
+invalid!
