@@ -23,7 +23,9 @@ int main(){
     int b;
     long c;
     long long d; 
-    float score = 45.32;
+    float const score =45.32;
+    // float score = 45.32;
+    /*jitna prescise chahie us hisab se variable define karna padega*/
     double score2 = 45.332;
     long double score3 = 45.332;
     cout<<"The score is" <<score;
