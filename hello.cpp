@@ -19,18 +19,29 @@ int main(){
     // cout<<marksInMaths <<endl;
     // cout<<"the marks of student in maths is "<<marksInMaths;
      
-    short a;
-    int b;
-    long c;
-    long long d; 
-    float const score =45.32;
-    // float score = 45.32;
-    /*jitna prescise chahie us hisab se variable define karna padega*/
-    double score2 = 45.332;
-    long double score3 = 45.332;
-    cout<<"The score is" <<score;
+    // short a;
+    // int const b=98;
+    // long c;
+    // long long d; 
+    // float const score =45.32;
+    // // float score = 45.32;
+    // /*jitna prescise chahie us hisab se variable define karna padega*/
+    // double score2 = 45.332;
+    // long double score3 = 45.332;
+    // cout<<"The score is" <<score;
+    // int a, b;
+    // cout<<"enter first number"<<endl;
+    // cin>>a;
+
+    // cout<<"Enter second number"<<endl;
+    // cin>>b;
+
+    // cout <<"a+b is  " <<a+b <<endl;
+    // cout <<"a-b is " <<a-b <<endl;
+    // cout <<"a*b is " <<a*b <<endl;
+    // cout <<"a/b is " <<(float)a/b <<endl;
 //     // cout<<"hello world Ankit"<<endl;
 //     // cout<<"Next  line";
 
-    return 0;
-    }
+return 0;
+}
