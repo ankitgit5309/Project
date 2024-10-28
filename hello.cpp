@@ -63,20 +63,34 @@ int main()
     //     cout<<"you cannot vote";
     // }
 
-    // Switch statements
+    // // Switch statements
 
-    switch (age)
+    // switch (age)
+    // {
+    // case 12:
+    //     cout << "You are 12 years of age" <<endl;
+    //     break;
+
+    // case 18:
+    //     cout << "You are 18 years old" <<endl;
+    //     break;
+
+    // default:
+    //     cout << "you are neither 12 nor 18 years old" <<endl;
+    //     break;
+    // }
+// LOOPS
+    int index = 0;
+    //  while (index<34)
+    //  {
+    //    cout<<"we are the index number"<<index<<endl;
+    //    index = index+1;
+    //  }
+    do
     {
-    case 12:
-        cout << "You are 12 years of age" <<endl;
-        break;
-
-    case 18:
-        cout << "You are 18 years old" <<endl;
-        break;
-
-    default:
-        cout << "you are neither 12 nor 18 years old" <<endl;
-        break;
-    }
+     cout<<"we are the index number"<<index<<endl;
+     index = index + 1;
+    } while (inddex>3453);
+    
+     
 }
