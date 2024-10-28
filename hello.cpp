@@ -115,17 +115,26 @@ int main()
 // // Array index     0 1 2
 //     cout<<arr[2];
 
-    int marks[6];
-    for(int i=0; i<6;i++)
-    {
-        cout<<"enter the marks of"  <<i<<"th student"<<endl;
-        cin >> marks[i];
-    }
-    for (int i = 0; i < 6; i++)
-    {
-        cout<<"Marks of "<<i<<"th student is"<<marks[i]<<endl;
+    // int marks[6];
+    // for(int i=0; i<6;i++)
+    // {
+    //     cout<<"enter the marks of"  <<i<<"th student"<<endl;
+    //     cin >> marks[i];
+    // }
+    // for (int i = 0; i < 6; i++)
+    // {
+    //     cout<<"Marks of "<<i<<"th student is"<<marks[i]<<endl;
 
+    // }
+
+    int arr2d[2][3]={
+        {1,2,3},
+        {4,5,6}
+    };
+    for (int i = 0; i < 2; i++)
+    {
+        for (int i = 0; j <3; j++)
+        {
+            cout<<"The value at", "<<i<<", "<<j<<" is" <<arr2d[i][j];
+        }
     }
-    
-    return 0;   
-}
