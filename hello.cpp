@@ -43,10 +43,10 @@ int main()
     // cout <<"a/b is " <<(float)a/b <<endl;
     //     // cout<<"hello world Ankit"<<endl;
     //     // cout<<"Next  line";
-    int age;
+    // int age;
 
-    cout << "Enter your age" << endl;
-    cin >> age;
+    // cout << "Enter your age" << endl;
+    // cin >> age;
     // Learning of if-else loop
     //  if(age>150 || age<1)
     //  {
@@ -79,18 +79,21 @@ int main()
     //     cout << "you are neither 12 nor 18 years old" <<endl;
     //     break;
     // }
-// LOOPS
+    // LOOPS
     int index = 0;
     //  while (index<34)
     //  {
     //    cout<<"we are the index number"<<index<<endl;
     //    index = index+1;
     //  }
-    do
-    {
-     cout<<"we are the index number"<<index<<endl;
-     index = index + 1;
-    } while (inddex>3453);
+//     do
+//     {
+//         cout << "we are the index number" << index << endl;
+//         index = index + 1;
+//     } while (index < 33);
+    // for (int i = 0; i < 34; i++)
+    // {
+    //     cout<<"The value of i is " <<endl;
+    // }
     
-     
 }
