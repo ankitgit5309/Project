@@ -102,12 +102,30 @@ int main()
     // {
     //     cout<<"The value of i is " <<endl;
     // }
-    int a, b;
-    cout<<"Enter first number" <<endl;
-    cin>>a;
+    // int a, b;
+    // cout<<"Enter first number" <<endl;
+    // cin>>a;
 
-    cout<<"Enter second number"<<endl;
-    cin>>b;
-    cout<<"The function returned "<<(sum a,b);
+    // cout<<"Enter second number"<<endl;
+    // cin>>b;
+    // cout<<"The function returned "<< add(a,b);
+
+//  ARRAYS : collection of same types of data
+//     int arr[] = { 1,3,5};
+// // Array index     0 1 2
+//     cout<<arr[2];
+
+    int marks[6];
+    for(int i=0; i<6;i++)
+    {
+        cout<<"enter the marks of"  <<i<<"th student"<<endl;
+        cin >> marks[i];
+    }
+    for (int i = 0; i < 6; i++)
+    {
+        cout<<"Marks of "<<i<<"th student is"<<marks[i]<<endl;
+
+    }
     
+    return 0;   
 }
