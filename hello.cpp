@@ -160,5 +160,20 @@ int main()
     // // print the value of a the value to which  the ptr is pointing.
     // cout<<*ptra;
 
+    class Employee;{
+        public:
+          string name;
+          int salary;
+          
+    }
+
+
+    Employee  Ank;
+    har.name = "Ankit";
+    Ank.salary = 100;
+    cout<<"The name of our first employee is "<<Ank.name<< "and his salary is "<<Ank.salary<<"Dollars"<<endl;
+
+        
+
     return 0;
 }
