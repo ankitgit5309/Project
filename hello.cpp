@@ -93,11 +93,11 @@ int main()
     //    cout<<"we are the index number"<<index<<endl;
     //    index = index+1;
     //  }
-//     do
-//     {
-//         cout << "we are the index number" << index << endl;
-//         index = index + 1;
-//     } while (index < 33);
+    //     do
+    //     {
+    //         cout << "we are the index number" << index << endl;
+    //         index = index + 1;
+    //     } while (index < 33);
     // for (int i = 0; i < 34; i++)
     // {
     //     cout<<"The value of i is " <<endl;
@@ -110,10 +110,10 @@ int main()
     // cin>>b;
     // cout<<"The function returned "<< add(a,b);
 
-//  ARRAYS : collection of same types of data
-//     int arr[] = { 1,3,5};
-// // Array index     0 1 2
-//     cout<<arr[2];
+    //  ARRAYS : collection of same types of data
+    //     int arr[] = { 1,3,5};
+    // // Array index     0 1 2
+    //     cout<<arr[2];
 
     // int marks[6];
     // for(int i=0; i<6;i++)
@@ -127,17 +127,16 @@ int main()
 
     // }
 
-    int arr2d[2][3]={
-        {1,2,3},
-        {4,5,6}
-    };
+    int arr2d[2][3] = {
+        {1, 2, 3},
+        {4, 5, 6}};
     for (int i = 0; i < 2; i++)
     {
-        for (int j = 0; j <3; j++)
+        for (int j = 0; j < 3; j++)
         {
-            cout<<"The value at "<<i<<", "<<j<<" is" <<arr2d[i][j]<<endl;
+            cout << "The value at " << i << ", " << j << " is" << arr2d[i][j] << endl;
         }
     }
-    
-    return 0;   
+
+    return 0;
 }
