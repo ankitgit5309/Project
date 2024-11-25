@@ -139,10 +139,25 @@ int main()
     //     }
     // }
 
-    int a = 343;
-    float b = 87.34; 
-    cout<<(float) a/34;
-    cout<<(int) b;
+    // int a = 343;
+    // float b = 87.34; 
+    // cout<<(float) a/34;
+    // cout<<(int) b;
+
+    // string name = "Ankit";
+    // cout<<"The name is " <<name<<endl;
+    // cout<<"The length of name is " <<name.length()<<endl;
+    // cout<<"The name is " <<name.substr(0,3)<<endl;
+    // cout<<"The name is " <<name.substr(2,3);
+    
+    int a = 34;
+    int* ptra;
+    // & means adress of the  given thing. 
+    ptra = &a;
+    // print the address.
+    cout<<ptra;
+    // print the value of a the value to which  the ptr is pointing.
+    cout<<*ptra;
 
     return 0;
 }
