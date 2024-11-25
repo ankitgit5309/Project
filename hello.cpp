@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 //  f(x) = x^2 + 2;
@@ -150,14 +151,14 @@ int main()
     // cout<<"The name is " <<name.substr(0,3)<<endl;
     // cout<<"The name is " <<name.substr(2,3);
     
-    int a = 34;
-    int* ptra;
-    // & means adress of the  given thing. 
-    ptra = &a;
-    // print the address.
-    cout<<ptra;
-    // print the value of a the value to which  the ptr is pointing.
-    cout<<*ptra;
+    // int a = 34;
+    // int* ptra;
+    // // & means adress of the  given thing. 
+    // ptra = &a;
+    // // print the address.
+    // cout<<ptra;
+    // // print the value of a the value to which  the ptr is pointing.
+    // cout<<*ptra;
 
     return 0;
 }
