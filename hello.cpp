@@ -183,7 +183,7 @@ using namespace std;
         ank.name = "Ankit";
         ank.salary = 100;
         ank.printDetails();
-        har.getSecretPassword();
+        ank.getSecretPassword();
         cout << ank.secreetPassword;
 
         return 0;
