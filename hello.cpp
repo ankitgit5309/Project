@@ -150,7 +150,7 @@ using namespace std;
     // // print the value of a the value to which  the ptr is pointing.
     // cout<<*ptra;
 
-    class Employee;
+    class Employee ank;
     {
     public:
         string name;
@@ -175,6 +175,7 @@ using namespace std;
     private:
         string secretPassword = "defaultPassword";
     };
+
     int main()
     {
         Employee ank("Ankit constructor", 344, 324432);
