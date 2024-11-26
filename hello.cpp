@@ -173,7 +173,11 @@ int main()
           }
           
     }
+    Employee ank("Ankit constructor");
 
+    ank.printDetails();
+    ank.name = "Ankit";
+    ank.salary = 100;
 
     void printDetails()
    {
