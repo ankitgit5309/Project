@@ -164,14 +164,21 @@ int main()
         public:
           string name;
           int salary;
+
+          Employee(string name, int salary)
+
+          {
+            this->name = n;
+            this-> salary = s;
+          }
           
     }
 
 
-    Employee  Ank;
-    har.name = "Ankit";
-    Ank.salary = 100;
-    cout<<"The name of our first employee is "<<Ank.name<< "and his salary is "<<Ank.salary<<"Dollars"<<endl;
+    void printDetails()
+   {
+    cout<<"The name of our first  employee is"<< this.anme <<"and his salary is "<<this->salary<<" Dollars "<<endl;
+   }
 
         
 
