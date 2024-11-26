@@ -1,16 +1,6 @@
 #include <iostream>
 #include <string>
 using namespace std;
-
-//  f(x) = x^2 + 2;
-int add(int a, int b)
-{
-    int c;
-    c = a + b;
-    return c;
-}
-int main()
-{
     // int a, b, c;
     // short sa=9;
 
@@ -88,7 +78,7 @@ int main()
     //     break;
     // }
     // LOOPS
-    int index = 0;
+    // int index = 0;
     //  while (index<34)
     //  {
     //    cout<<"we are the index number"<<index<<endl;
@@ -126,12 +116,12 @@ int main()
     // {
     //     cout<<"Marks of "<<i<<"th student is"<<marks[i]<<endl;
 
-    // } 
+    // }
 
     // int arr2d[2][3] = {
     //     {1, 2, 3},
     //     {4, 5, 6}};
-    // // Double for loop 
+    // // Double for loop
     // for (int i = 0; i < 2; i++)
     // {
     //     for (int j = 0; j < 3; j++)
@@ -141,7 +131,7 @@ int main()
     // }
 
     // int a = 343;
-    // float b = 87.34; 
+    // float b = 87.34;
     // cout<<(float) a/34;
     // cout<<(int) b;
 
@@ -150,41 +140,51 @@ int main()
     // cout<<"The length of name is " <<name.length()<<endl;
     // cout<<"The name is " <<name.substr(0,3)<<endl;
     // cout<<"The name is " <<name.substr(2,3);
-    
+
     // int a = 34;
     // int* ptra;
-    // // & means adress of the  given thing. 
+    // // & means adress of the  given thing.
     // ptra = &a;
     // // print the address.
     // cout<<ptra;
     // // print the value of a the value to which  the ptr is pointing.
     // cout<<*ptra;
 
-    class Employee;{
-        public:
-          string name;
-          int salary;
+    class Employee;
+    {
+    public:
+        string name;
+        int salary;
 
-          Employee(string name, int salary)
+        Employee(string name, int salary)
 
-          {
-            this->name = n;
-            this-> salary = s;
-          }
-          
+        {
+            this->name = name;
+            this->salary = salary;
+        }
+
+        void printDetails()
+        {
+            cout << "The name of our first  employee is" << this.anme << "and his salary is " << this->salary << " Dollars " << endl;
+        }
+        void getSecretPassword()
+        {
+            cout << "the secret password of employee is" << this->secretPassword;
+        }
+
+    private:
+        string secretPassword = "defaultPassword";
+    };
+    int main()
+    {
+        Employee ank("Ankit constructor", 344, 324432);
+
+        ank.printDetails();
+        ank.name = "Ankit";
+        ank.salary = 100;
+        ank.printDetails();
+        har.getSecretPassword();
+        cout << ank.secreetPassword;
+
+        return 0;
     }
-    Employee ank("Ankit constructor");
-
-    ank.printDetails();
-    ank.name = "Ankit";
-    ank.salary = 100;
-
-    void printDetails()
-   {
-    cout<<"The name of our first  employee is"<< this.anme <<"and his salary is "<<this->salary<<" Dollars "<<endl;
-   }
-
-        
-
-    return 0;
-}
