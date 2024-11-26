@@ -178,8 +178,9 @@ using namespace std;
 
     int main()
     {
-        Employee ank("Ankit constructor", 344, 324432);
-
+        Employee ank("Ankit constructor", 344);
+        return 0;
+    }
         ank.printDetails();
         ank.name = "Ankit";
         ank.salary = 100;
